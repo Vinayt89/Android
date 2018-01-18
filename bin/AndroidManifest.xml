@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cdicomplete25aug"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cdiicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cdi.activities.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cdi.activities.Login" >
+        </activity>
+        <activity android:name="com.cdi.activities.Peace_of_Mind_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Peace_of_Mind" >
+        </activity>
+        <activity android:name="com.cdi.activities.Health" >
+        </activity>
+        <activity android:name="com.cdi.activities.Health_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Education_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Education" >
+        </activity>
+        <activity android:name="com.cdi.activities.Economic_Enviornment_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Economic_Enviornment" >
+        </activity>
+        <activity android:name="com.cdi.activities.Infrastructure_Env_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Infrastructure_Env" >
+        </activity>
+        <activity android:name="com.cdi.activities.Governance_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Governance" >
+        </activity>
+        <activity android:name="com.cdi.activities.Community_Vitality" >
+        </activity>
+        <activity android:name="com.cdi.activities.Community_Vitality_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Enviornment_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.Enviornment" >
+        </activity>
+        <activity android:name="com.cdi.activities.Demography_and_LivingStd" >
+        </activity>
+        <activity android:name="com.cdi.activities.Demography_and_LivingStd_MainForm" >
+        </activity>
+        <activity android:name="com.cdi.activities.ThankYouPage" >
+        </activity>
+    </application>
+
+</manifest>

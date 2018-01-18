@@ -1,0 +1,143 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\cdi\
+* app\src\main\java\com\cdi\activities\
+* app\src\main\java\com\cdi\activities\Community_Vitality.java
+* app\src\main\java\com\cdi\activities\Community_Vitality_MainForm.java
+* app\src\main\java\com\cdi\activities\Demography_and_LivingStd.java
+* app\src\main\java\com\cdi\activities\Demography_and_LivingStd_MainForm.java
+* app\src\main\java\com\cdi\activities\Economic_Enviornment.java
+* app\src\main\java\com\cdi\activities\Economic_Enviornment_MainForm.java
+* app\src\main\java\com\cdi\activities\Education.java
+* app\src\main\java\com\cdi\activities\Education_MainForm.java
+* app\src\main\java\com\cdi\activities\Enviornment.java
+* app\src\main\java\com\cdi\activities\Enviornment_MainForm.java
+* app\src\main\java\com\cdi\activities\Governance.java
+* app\src\main\java\com\cdi\activities\Governance_MainForm.java
+* app\src\main\java\com\cdi\activities\Health.java
+* app\src\main\java\com\cdi\activities\Health_MainForm.java
+* app\src\main\java\com\cdi\activities\Infrastructure_Env.java
+* app\src\main\java\com\cdi\activities\Infrastructure_Env_MainForm.java
+* app\src\main\java\com\cdi\activities\Login.java
+* app\src\main\java\com\cdi\activities\Peace_of_Mind.java
+* app\src\main\java\com\cdi\activities\Peace_of_Mind_MainForm.java
+* app\src\main\java\com\cdi\activities\SplashScreen.java
+* app\src\main\java\com\cdi\activities\ThankYouPage.java
+* app\src\main\java\com\cdi\otherclasses\
+* app\src\main\java\com\cdi\otherclasses\AlertDialogManager.java
+* app\src\main\java\com\cdi\otherclasses\ConnectionDetector.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\cdiicon.jpg
+* app\src\main\res\drawable-hdpi\fail.png
+* app\src\main\res\drawable-hdpi\form1img.jpg
+* app\src\main\res\drawable-hdpi\form2img.jpg
+* app\src\main\res\drawable-hdpi\form3img.jpg
+* app\src\main\res\drawable-hdpi\form4img.jpg
+* app\src\main\res\drawable-hdpi\form5img.jpg
+* app\src\main\res\drawable-hdpi\form6img.jpg
+* app\src\main\res\drawable-hdpi\form7img.jpg
+* app\src\main\res\drawable-hdpi\form8img.jpg
+* app\src\main\res\drawable-hdpi\form9img.jpg
+* app\src\main\res\drawable-hdpi\next_ldpi.png
+* app\src\main\res\drawable-hdpi\previous_ldpi.png
+* app\src\main\res\drawable-hdpi\splashscreen.png
+* app\src\main\res\drawable-hdpi\success.png
+* app\src\main\res\drawable-hdpi\thank_you.jpg
+* app\src\main\res\layout\
+* app\src\main\res\layout\form1.xml
+* app\src\main\res\layout\form1main.xml
+* app\src\main\res\layout\form2.xml
+* app\src\main\res\layout\form2main.xml
+* app\src\main\res\layout\form3.xml
+* app\src\main\res\layout\form3main.xml
+* app\src\main\res\layout\form4.xml
+* app\src\main\res\layout\form4main.xml
+* app\src\main\res\layout\form5.xml
+* app\src\main\res\layout\form5main.xml
+* app\src\main\res\layout\form6.xml
+* app\src\main\res\layout\form6main.xml
+* app\src\main\res\layout\form7.xml
+* app\src\main\res\layout\form7main.xml
+* app\src\main\res\layout\form8.xml
+* app\src\main\res\layout\form8main.xml
+* app\src\main\res\layout\form9.xml
+* app\src\main\res\layout\form9main.xml
+* app\src\main\res\layout\login.xml
+* app\src\main\res\layout\splashscreen.xml
+* app\src\main\res\layout\thankyou.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\main.xml
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values-w820dp\
+* app\src\main\res\values-w820dp\dimens.xml
+* app\src\main\res\values\
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:25.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
